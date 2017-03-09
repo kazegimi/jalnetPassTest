@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF12D62B1E7136D800B5B6FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF12D62A1E7136D800B5B6FA /* main.m */; };
+		EF12D62E1E7136D800B5B6FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF12D62D1E7136D800B5B6FA /* AppDelegate.m */; };
+		EF12D6311E7136D800B5B6FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF12D6301E7136D800B5B6FA /* ViewController.m */; };
+		EF12D6341E7136D800B5B6FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF12D6321E7136D800B5B6FA /* Main.storyboard */; };
+		EF12D6361E7136D800B5B6FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF12D6351E7136D800B5B6FA /* Assets.xcassets */; };
+		EF12D6391E7136D800B5B6FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF12D6371E7136D800B5B6FA /* LaunchScreen.storyboard */; };
+		EF12D6441E7136D800B5B6FA /* jalnetPassTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF12D6431E7136D800B5B6FA /* jalnetPassTestTests.m */; };
+		EF12D64F1E7136D800B5B6FA /* jalnetPassTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF12D64E1E7136D800B5B6FA /* jalnetPassTestUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF12D6401E7136D800B5B6FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF12D61E1E7136D800B5B6FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF12D6251E7136D800B5B6FA;
+			remoteInfo = jalnetPassTest;
+		};
+		EF12D64B1E7136D800B5B6FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF12D61E1E7136D800B5B6FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF12D6251E7136D800B5B6FA;
+			remoteInfo = jalnetPassTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF12D6261E7136D800B5B6FA /* jalnetPassTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jalnetPassTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF12D62A1E7136D800B5B6FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF12D62C1E7136D800B5B6FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF12D62D1E7136D800B5B6FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF12D62F1E7136D800B5B6FA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF12D6301E7136D800B5B6FA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF12D6331E7136D800B5B6FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF12D6351E7136D800B5B6FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF12D6381E7136D800B5B6FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF12D63A1E7136D800B5B6FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF12D63F1E7136D800B5B6FA /* jalnetPassTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jalnetPassTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF12D6431E7136D800B5B6FA /* jalnetPassTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = jalnetPassTestTests.m; sourceTree = "<group>"; };
+		EF12D6451E7136D800B5B6FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF12D64A1E7136D800B5B6FA /* jalnetPassTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jalnetPassTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF12D64E1E7136D800B5B6FA /* jalnetPassTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = jalnetPassTestUITests.m; sourceTree = "<group>"; };
+		EF12D6501E7136D800B5B6FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF12D6231E7136D800B5B6FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF12D63C1E7136D800B5B6FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF12D6471E7136D800B5B6FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF12D61D1E7136D800B5B6FA = {
+			isa = PBXGroup;
+			children = (
+				EF12D6281E7136D800B5B6FA /* jalnetPassTest */,
+				EF12D6421E7136D800B5B6FA /* jalnetPassTestTests */,
+				EF12D64D1E7136D800B5B6FA /* jalnetPassTestUITests */,
+				EF12D6271E7136D800B5B6FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF12D6271E7136D800B5B6FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF12D6261E7136D800B5B6FA /* jalnetPassTest.app */,
+				EF12D63F1E7136D800B5B6FA /* jalnetPassTestTests.xctest */,
+				EF12D64A1E7136D800B5B6FA /* jalnetPassTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF12D6281E7136D800B5B6FA /* jalnetPassTest */ = {
+			isa = PBXGroup;
+			children = (
+				EF12D62C1E7136D800B5B6FA /* AppDelegate.h */,
+				EF12D62D1E7136D800B5B6FA /* AppDelegate.m */,
+				EF12D62F1E7136D800B5B6FA /* ViewController.h */,
+				EF12D6301E7136D800B5B6FA /* ViewController.m */,
+				EF12D6321E7136D800B5B6FA /* Main.storyboard */,
+				EF12D6351E7136D800B5B6FA /* Assets.xcassets */,
+				EF12D6371E7136D800B5B6FA /* LaunchScreen.storyboard */,
+				EF12D63A1E7136D800B5B6FA /* Info.plist */,
+				EF12D6291E7136D800B5B6FA /* Supporting Files */,
+			);
+			path = jalnetPassTest;
+			sourceTree = "<group>";
+		};
+		EF12D6291E7136D800B5B6FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF12D62A1E7136D800B5B6FA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF12D6421E7136D800B5B6FA /* jalnetPassTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF12D6431E7136D800B5B6FA /* jalnetPassTestTests.m */,
+				EF12D6451E7136D800B5B6FA /* Info.plist */,
+			);
+			path = jalnetPassTestTests;
+			sourceTree = "<group>";
+		};
+		EF12D64D1E7136D800B5B6FA /* jalnetPassTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF12D64E1E7136D800B5B6FA /* jalnetPassTestUITests.m */,
+				EF12D6501E7136D800B5B6FA /* Info.plist */,
+			);
+			path = jalnetPassTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF12D6251E7136D800B5B6FA /* jalnetPassTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF12D6531E7136D800B5B6FA /* Build configuration list for PBXNativeTarget "jalnetPassTest" */;
+			buildPhases = (
+				EF12D6221E7136D800B5B6FA /* Sources */,
+				EF12D6231E7136D800B5B6FA /* Frameworks */,
+				EF12D6241E7136D800B5B6FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jalnetPassTest;
+			productName = jalnetPassTest;
+			productReference = EF12D6261E7136D800B5B6FA /* jalnetPassTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF12D63E1E7136D800B5B6FA /* jalnetPassTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF12D6561E7136D800B5B6FA /* Build configuration list for PBXNativeTarget "jalnetPassTestTests" */;
+			buildPhases = (
+				EF12D63B1E7136D800B5B6FA /* Sources */,
+				EF12D63C1E7136D800B5B6FA /* Frameworks */,
+				EF12D63D1E7136D800B5B6FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF12D6411E7136D800B5B6FA /* PBXTargetDependency */,
+			);
+			name = jalnetPassTestTests;
+			productName = jalnetPassTestTests;
+			productReference = EF12D63F1E7136D800B5B6FA /* jalnetPassTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF12D6491E7136D800B5B6FA /* jalnetPassTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF12D6591E7136D800B5B6FA /* Build configuration list for PBXNativeTarget "jalnetPassTestUITests" */;
+			buildPhases = (
+				EF12D6461E7136D800B5B6FA /* Sources */,
+				EF12D6471E7136D800B5B6FA /* Frameworks */,
+				EF12D6481E7136D800B5B6FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF12D64C1E7136D800B5B6FA /* PBXTargetDependency */,
+			);
+			name = jalnetPassTestUITests;
+			productName = jalnetPassTestUITests;
+			productReference = EF12D64A1E7136D800B5B6FA /* jalnetPassTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF12D61E1E7136D800B5B6FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Another Sky";
+				TargetAttributes = {
+					EF12D6251E7136D800B5B6FA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 54H8SCQ8AA;
+						ProvisioningStyle = Automatic;
+					};
+					EF12D63E1E7136D800B5B6FA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 54H8SCQ8AA;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF12D6251E7136D800B5B6FA;
+					};
+					EF12D6491E7136D800B5B6FA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 54H8SCQ8AA;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF12D6251E7136D800B5B6FA;
+					};
+				};
+			};
+			buildConfigurationList = EF12D6211E7136D800B5B6FA /* Build configuration list for PBXProject "jalnetPassTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF12D61D1E7136D800B5B6FA;
+			productRefGroup = EF12D6271E7136D800B5B6FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF12D6251E7136D800B5B6FA /* jalnetPassTest */,
+				EF12D63E1E7136D800B5B6FA /* jalnetPassTestTests */,
+				EF12D6491E7136D800B5B6FA /* jalnetPassTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF12D6241E7136D800B5B6FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF12D6391E7136D800B5B6FA /* LaunchScreen.storyboard in Resources */,
+				EF12D6361E7136D800B5B6FA /* Assets.xcassets in Resources */,
+				EF12D6341E7136D800B5B6FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF12D63D1E7136D800B5B6FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF12D6481E7136D800B5B6FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF12D6221E7136D800B5B6FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF12D6311E7136D800B5B6FA /* ViewController.m in Sources */,
+				EF12D62E1E7136D800B5B6FA /* AppDelegate.m in Sources */,
+				EF12D62B1E7136D800B5B6FA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF12D63B1E7136D800B5B6FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF12D6441E7136D800B5B6FA /* jalnetPassTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF12D6461E7136D800B5B6FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF12D64F1E7136D800B5B6FA /* jalnetPassTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF12D6411E7136D800B5B6FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF12D6251E7136D800B5B6FA /* jalnetPassTest */;
+			targetProxy = EF12D6401E7136D800B5B6FA /* PBXContainerItemProxy */;
+		};
+		EF12D64C1E7136D800B5B6FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF12D6251E7136D800B5B6FA /* jalnetPassTest */;
+			targetProxy = EF12D64B1E7136D800B5B6FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF12D6321E7136D800B5B6FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF12D6331E7136D800B5B6FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF12D6371E7136D800B5B6FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF12D6381E7136D800B5B6FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF12D6511E7136D800B5B6FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		EF12D6521E7136D800B5B6FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF12D6541E7136D800B5B6FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 54H8SCQ8AA;
+				INFOPLIST_FILE = jalnetPassTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.micchann.jalnetPassTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF12D6551E7136D800B5B6FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 54H8SCQ8AA;
+				INFOPLIST_FILE = jalnetPassTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.micchann.jalnetPassTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF12D6571E7136D800B5B6FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 54H8SCQ8AA;
+				INFOPLIST_FILE = jalnetPassTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.micchann.jalnetPassTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jalnetPassTest.app/jalnetPassTest";
+			};
+			name = Debug;
+		};
+		EF12D6581E7136D800B5B6FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 54H8SCQ8AA;
+				INFOPLIST_FILE = jalnetPassTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.micchann.jalnetPassTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jalnetPassTest.app/jalnetPassTest";
+			};
+			name = Release;
+		};
+		EF12D65A1E7136D800B5B6FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 54H8SCQ8AA;
+				INFOPLIST_FILE = jalnetPassTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.micchann.jalnetPassTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = jalnetPassTest;
+			};
+			name = Debug;
+		};
+		EF12D65B1E7136D800B5B6FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 54H8SCQ8AA;
+				INFOPLIST_FILE = jalnetPassTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.micchann.jalnetPassTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = jalnetPassTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF12D6211E7136D800B5B6FA /* Build configuration list for PBXProject "jalnetPassTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF12D6511E7136D800B5B6FA /* Debug */,
+				EF12D6521E7136D800B5B6FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF12D6531E7136D800B5B6FA /* Build configuration list for PBXNativeTarget "jalnetPassTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF12D6541E7136D800B5B6FA /* Debug */,
+				EF12D6551E7136D800B5B6FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF12D6561E7136D800B5B6FA /* Build configuration list for PBXNativeTarget "jalnetPassTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF12D6571E7136D800B5B6FA /* Debug */,
+				EF12D6581E7136D800B5B6FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF12D6591E7136D800B5B6FA /* Build configuration list for PBXNativeTarget "jalnetPassTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF12D65A1E7136D800B5B6FA /* Debug */,
+				EF12D65B1E7136D800B5B6FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF12D61E1E7136D800B5B6FA /* Project object */;
+}
