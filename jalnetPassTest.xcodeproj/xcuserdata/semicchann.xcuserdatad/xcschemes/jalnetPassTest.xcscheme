@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0820"
+   LastUpgradeVersion = "1000"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -45,6 +45,36 @@
                BlueprintIdentifier = "EF12D6491E7136D800B5B6FA"
                BuildableName = "jalnetPassTestUITests.xctest"
                BlueprintName = "jalnetPassTestUITests"
+               ReferencedContainer = "container:jalnetPassTest.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "EF6C66611E7447390043EEEB"
+               BuildableName = "UICKeyChainStoreTests.xctest"
+               BlueprintName = "UICKeyChainStoreTests"
+               ReferencedContainer = "container:jalnetPassTest.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "EF6C66851E7448AF0043EEEB"
+               BuildableName = "UICKeChainTests.xctest"
+               BlueprintName = "UICKeChainTests"
+               ReferencedContainer = "container:jalnetPassTest.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "EF6C66A71E7448D00043EEEB"
+               BuildableName = "UICKeyChainTests.xctest"
+               BlueprintName = "UICKeyChainTests"
                ReferencedContainer = "container:jalnetPassTest.xcodeproj">
             </BuildableReference>
          </TestableReference>

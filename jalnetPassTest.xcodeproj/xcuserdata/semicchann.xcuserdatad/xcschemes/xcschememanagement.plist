@@ -4,6 +4,26 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>UICKeChain.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>UICKeyChain.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>UICKeyChainStore.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>jalnetPassEx.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>jalnetPassTest.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -23,6 +43,51 @@
 			<true/>
 		</dict>
 		<key>EF12D6491E7136D800B5B6FA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EF12D65F1E71374900B5B6FA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EF6C66591E7447390043EEEB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EF6C66611E7447390043EEEB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EF6C667D1E7448AF0043EEEB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EF6C66851E7448AF0043EEEB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EF6C669F1E7448D00043EEEB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EF6C66A71E7448D00043EEEB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EFED0BF31E7445D9002F09DA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EFED0BFB1E7445D9002F09DA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
