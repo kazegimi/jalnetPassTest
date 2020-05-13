@@ -32,6 +32,11 @@ finalize: function(arguments) {
         document.forms[0].EnterID.value = arguments["userID"];
         document.forms[0].EnterPassWord.value = arguments["password"];
         document.forms[0].SubmitBtn.click();
+    } else if (arguments["origPage"] == "IntraDoc") {
+        document.forms[0].user.value = arguments["userID"];
+        document.forms[0].pass.value = arguments["password"];
+        document.forms[0].js.value = 'ok';
+        document.forms[0].submit();
     }
 }
 

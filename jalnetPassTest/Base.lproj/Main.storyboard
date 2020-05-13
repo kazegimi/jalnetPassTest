@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="ipad9_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="ipad9_7" orientation="portrait" layout="fullscreen" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -22,17 +19,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xh8-cc-GfK">
-                                <rect key="frame" x="364" y="478" width="123" height="30"/>
+                                <rect key="frame" x="364" y="478.5" width="123" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="8fJ-bn-GA6"/>
                                     <constraint firstAttribute="width" constant="123" id="BaK-In-0Pr"/>
                                 </constraints>
-                                <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pmi-o7-zac">
-                                <rect key="frame" x="282" y="521" width="74" height="21"/>
+                                <rect key="frame" x="282.5" y="521" width="74" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="74" id="AVu-Hq-ipr"/>
                                     <constraint firstAttribute="height" constant="21" id="hTi-Pu-crC"/>
@@ -42,12 +38,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FXq-yP-Lrd">
-                                <rect key="frame" x="364" y="516" width="123" height="30"/>
+                                <rect key="frame" x="364.5" y="516.5" width="123" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="123" id="51P-Pr-caz"/>
                                     <constraint firstAttribute="height" constant="30" id="lB2-q1-U8c"/>
                                 </constraints>
-                                <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" secureTextEntry="YES"/>
                             </textField>
@@ -62,7 +57,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fe4-IM-mga">
-                                <rect key="frame" x="348.5" y="606" width="71" height="30"/>
+                                <rect key="frame" x="348.5" y="606.5" width="71" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="OBZ-RL-2m5"/>
                                     <constraint firstAttribute="width" constant="71" id="hbq-63-36j"/>
@@ -72,11 +67,31 @@
                                     <action selector="registerButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zKe-JV-NiY"/>
                                 </connections>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="aff-EJ-2hc">
+                                <rect key="frame" x="135.5" y="269.5" width="497" height="193"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="497" id="SMd-Rg-x3b"/>
+                                    <constraint firstAttribute="height" constant="193" id="U2l-8Y-cyo"/>
+                                </constraints>
+                                <string key="text">非常に簡単（手抜き）な説明ですみません。
+１、ここでIDとパスワードをアプリに登録します。
+２、対応ページ（※）にて、右上の共有ボタン（四角から矢印が出ているボタン）をタップし、PassTestをタップする。
+３、指紋認証を行う。
+４、１で登録したID/PASSが自動的に入力されます。
+
+※現在はBRIC、INSUITEトップ、Album、犬が走るページ、INSUITE内文書（一部）</string>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="FXq-yP-Lrd" firstAttribute="leading" secondItem="pmi-o7-zac" secondAttribute="trailing" constant="8" id="3SH-7F-3jU"/>
                             <constraint firstItem="xh8-cc-GfK" firstAttribute="leading" secondItem="dX2-87-MxY" secondAttribute="trailing" constant="36" id="7Ll-52-JLV"/>
+                            <constraint firstItem="xh8-cc-GfK" firstAttribute="top" secondItem="aff-EJ-2hc" secondAttribute="bottom" constant="16" id="ApH-ei-5eT"/>
+                            <constraint firstItem="aff-EJ-2hc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MWX-Ie-xBK"/>
                             <constraint firstItem="pmi-o7-zac" firstAttribute="top" secondItem="dX2-87-MxY" secondAttribute="bottom" constant="17" id="SQN-nW-eIu"/>
                             <constraint firstItem="dX2-87-MxY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-64.5" id="Sm9-c1-G6H"/>
                             <constraint firstItem="FXq-yP-Lrd" firstAttribute="centerY" secondItem="pmi-o7-zac" secondAttribute="centerY" id="Tne-q6-XZn"/>
@@ -96,7 +111,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.80000000000001" y="112.89355322338831"/>
+            <point key="canvasLocation" x="136.71875" y="112.49999999999999"/>
         </scene>
     </scenes>
 </document>
